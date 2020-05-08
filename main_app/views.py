@@ -17,4 +17,4 @@ class ItemCreate(CreateView):
 
 class ItemDelete(DeleteView):
   model = Item
-  success_url = '/items/'
+  success_url = '/'
